@@ -55,3 +55,6 @@ for pausas in g2:
     print(pausas)
 for pausas in g3:
     print(pausas)
+gen = generator(maximum=1000)
+for n in gen:
+    print(n)
